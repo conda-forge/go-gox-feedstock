@@ -18,3 +18,7 @@ target_gobin:
 - ${PREFIX}/bin/
 target_goexe:
 - ''
+zip_keys:
+- - channel_sources
+  - channel_targets
+  - build_number_decrement
