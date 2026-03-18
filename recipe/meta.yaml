@@ -14,7 +14,7 @@ source:
     git_tag: v{{ version }}
     
 build:
-  number: 1000
+  number: 1001
   script:
     - pushd {{ pkg_src }}
     # Download non-vendored dependencies/source code only
@@ -33,7 +33,7 @@ test:
 about:
   home: http://{{ goname }}
   license: MPL-2.0
-  license_file: {{pkg_src}}/LICENSE
+  license_file: {{ pkg_src }}/LICENSE
   summary: 'A dead simple, no frills Go cross compile tool'
   dev_url: https://{{ goname }}
 
