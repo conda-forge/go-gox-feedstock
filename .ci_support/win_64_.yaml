@@ -1,5 +1,5 @@
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 go_compiler:
@@ -8,3 +8,5 @@ target_gobin:
 - '%PREFIX%\bin\'
 target_goexe:
 - .exe
+target_platform:
+- win-64
